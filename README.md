@@ -1,13 +1,13 @@
-# MEAM-520-2020
+# Introduction to Robotics 2020
 Lab work and competition code for the course Introduction to Robotics (MEAM 520) at the University of Pennsylvania
 ## Competition (Winner)
 The final project in this course was a group copetition (teams of four). Each team wrote a script to control a Lynx robot arm. The tasks the robots needed to be able to solve were grabbing both stationary and moving blocks, stacking these blocks without knocking over the stack, and avoiding collision with obstacles. In each round of the competition, the Lynx arms of both robots competed to get highest scoring cube stacks (scoring according to project descrption; see pdf under "Media and Documents".
 
 ### Media and Documents
-- [Competition Blog Post](https://blog.seas.upenn.edu/virtual-robots-taking-risks-in-an-online-classroom/)
-- [Project Description](https://github.com/Zador-Pataki/MEAM-520-2020/files/7690964/FinalProject.pdf)
-- [Competition Report](https://github.com/Zador-Pataki/MEAM-520-2020/files/7690976/MEAM520_Final_Report.pdf)
-- Final round of competition below (our arm is blue)
+- #### [Competition Blog Post](https://blog.seas.upenn.edu/virtual-robots-taking-risks-in-an-online-classroom/)
+- #### [Project Description](https://github.com/Zador-Pataki/MEAM-520-2020/files/7690964/FinalProject.pdf)
+- #### [Competition Report](https://github.com/Zador-Pataki/MEAM-520-2020/files/7690976/MEAM520_Final_Report.pdf)
+- #### Final round of competition below (our arm is blue)
 
 https://user-images.githubusercontent.com/55353663/145537919-da3384de-db31-4654-a87e-fe1205810c17.mp4
 
@@ -37,5 +37,8 @@ Lab 3 was about collision detection and avoidance. Solving htis task consisted o
 
 ### Lab 4 ([Lab4.pdf](https://github.com/Zador-Pataki/MEAM-520-2020/files/7691398/Lab4.pdf))
 In Lab 4, we calculated the forward and inverse kinematics of our robot. This consisted of inferring the voleocities of each joint, given join actuation, and inferring the joint actuation needed to achieve certain velocities in given joints.
+
+### Lab 5 ([Lab5.pdf](https://github.com/Zador-Pataki/MEAM-520-2020/files/7691898/Lab5.pdf))
+In Lab 5, our task was to control our robots using a potential field planner. The goal in such methods is to reach target states while avoiding obstacles, without deterministicely calculating a trajectory which will avoid obstacles, but instead updating the trajectory during the process. This is done by treating obstacles as protential sources (generate repolsive forces) and treating target states as potential sinks (generate attractive forces). The robot states tend directly towards the target until the repulsive forces from the obstacles are large enough (when the robot states are close enough to the obstacle) to divert the robot from the direct path. 
 
 
